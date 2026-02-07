@@ -1,0 +1,344 @@
+.nav {
+    animation-name: nav;
+    animation-duration: .7s;
+    position: relative;
+}
+
+@keyframes nav {
+    0% {
+        top: -30px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.header-heading {
+    animation-name: headerHeading;
+    animation-duration: .7s;
+    position: relative;
+}
+
+@keyframes headerHeading {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.header-info {
+    animation-name: headerInfo;
+    animation-duration: .7s;
+    position: relative;
+}
+
+@keyframes headerInfo {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.container {
+    overflow: hidden;
+}
+
+.about-us-img {
+    animation-name: aboutUsImg;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes aboutUsImg {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.about-us-wrap {
+    animation-name: aboutUsWrap;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes aboutUsWrap {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.lets-see-wrap {
+    animation-name: letsSeeWrap;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes letsSeeWrap {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.lets-see-p-wrap {
+    animation-name: aboutUsWrap;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+.what-you-get-heading {
+    animation: whatYouGetHeading .7s linear;
+}
+
+@keyframes whatYouGetHeading {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.expert-travel-wrap-wrap {
+    animation: expertTravelWrap .7s linear;
+}
+
+@keyframes expertTravelWrap {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.what-you-get-img-wrap {
+    animation: whatYouGetImgWrap .7s linear;
+}
+
+@keyframes whatYouGetImgWrap {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.explore-one-heading {
+    animation: exploreOneHeading .7s linear;
+}
+
+@keyframes exploreOneHeading {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.explore-one-info {
+    animation: exploreOneInfo .7s linear;
+}
+
+@keyframes exploreOneInfo {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.open-gallery-btn {
+    animation: openGalleryBtn .7s linear;
+}
+
+@keyframes openGalleryBtn {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.our-blog-wrap {
+    animation: ourBlogWrap .7s linear;
+}
+
+@keyframes ourBlogWrap {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.our-blog-info {
+    animation: ourBlogInfo .7s linear;
+}
+
+@keyframes ourBlogInfo {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.our-blog-cards-wrap {
+    animation: ourBlogCardsWrap .7s linear;
+}
+
+@keyframes ourBlogCardsWrap {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.our-prof-title {
+    animation: ourProfTitle .7s linear;
+}
+
+@keyframes ourProfTitle {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.our-prof-info {
+    animation: ourProfTitle .7s linear;
+}
+
+.form-img {
+    animation: formImg .7s linear;
+}
+
+@keyframes formImg {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.form-wrap {
+    animation: formWrap .7s linear;
+}
+
+@keyframes formWrap {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.footer-container {
+    animation: footerContainer .7s linear;
+}
+
+@keyframes footerContainer {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slider-wrap {
+    animation: sliderCard 10s infinite linear;
+}
+
+@keyframes sliderCard {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
